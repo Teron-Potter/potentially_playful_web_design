@@ -1,0 +1,45 @@
+git init
+  Initializes a repo
+
+git add file1.txt
+  stages one file
+
+git add file1.txt file2.txt
+  stages multiple files
+
+git add *
+  stages everything
+
+git add *.html
+  stages all .html files (or whatever extension)
+
+git add .
+ stages current directory and all content
+
+git rm --cached file1.txt
+  removes file from staging area.
+
+git diff
+  shows unstaged changes
+
+git diff --staged
+  shows staged changes
+
+git status
+  full status
+
+git status -s
+  short status
+
+git commit -m "message"
+  commit with a short message
+
+git commit
+  Opens editor to add a short message, then skip a line to write a long one.
+
+git log 
+  full history
+
+git log --oneline
+  summary log
+
